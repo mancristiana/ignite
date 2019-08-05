@@ -1,3 +1,8 @@
+.activeTalks {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
 .talks {
   display: flex;
   flex-wrap: wrap;
