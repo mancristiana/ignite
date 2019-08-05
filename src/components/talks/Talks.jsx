@@ -38,7 +38,7 @@ export const Talks = ({ data }) => (
 const ActiveTalks = ({ data }) => (<div className={styles.talks}>
   {data
     .map((talk, index) =>
-      <div className={styles.talk} key={index} style={{ width: (talk.room === "Room 4 + 5 + 6") ? "100%" : null }}>
+      <div className={styles.talk} key={index}>
         <Talk
           name={talk.name}
           description={talk.descriptionHtml}

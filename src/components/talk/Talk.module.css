@@ -7,6 +7,7 @@
   padding: 1em 2em;
   background-color: #1d1d1d;
   display: flex;
+  justify-content: space-between;
 }
 
 .details {
@@ -15,7 +16,7 @@
 
 .title {
   font-size: 40px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .speaker {

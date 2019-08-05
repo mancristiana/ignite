@@ -9,5 +9,5 @@
 }
 
 .talk {
-  width: 33.33%;
+  flex: 1;
 }

@@ -12,7 +12,11 @@ export function compare(date1, date2) {
 
 export function formatDuration(dateStart, dateEnd) {
   let timeStart = moment(dateStart).format("H:mm");
-  let timeEnd = moment(dateEnd).format("H:mm");
-  // let date = moment(dateStart).format("MMMM D, YYYY");
-  return `${timeStart} - ${timeEnd}`;
+
+  if(dateEnd) {
+    let timeEnd = moment(dateEnd).format("H:mm");
+    return `${timeStart} - ${timeEnd}`;
+  } else {
+    return timeStart;
+  }
 }
