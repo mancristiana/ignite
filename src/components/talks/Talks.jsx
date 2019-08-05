@@ -2,13 +2,14 @@ import React from 'react';
 import styles from './Talks.module.css';
 import { Talk } from './../talk/Talk';
 import { Time } from './../time/Time';
-import { compare } from './../../shared/Time.service';
+import { compare, isLive } from './../../shared/Time.service';
 
-export const Talks = ({ data }) => (
+export const Talks = ({ data, now }) => (
   <div>
     {data
       .sort((talk1, talk2) => compare(talk1.timeStart, talk2.timeStart))
-      .reduce((talksGroupedByTime, talk, index, array) => {
+      .filter(item => isLive(item.timeStart, item.timeEnd, now))
+      .reduce((talksGroupedByTime, talk) => {
 
         let group = talksGroupedByTime.find(g => g.timeStart === talk.timeStart);
         if (group) {

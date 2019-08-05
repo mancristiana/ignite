@@ -1,16 +1,21 @@
 import moment from 'moment';
 
 export function getNow() {
-  return moment("2019-08-07 9:30");
+  return moment();
 }
 
 export function isTimeOnGivenDay(time, day) {
   return moment(time).isSame(moment(day), 'day');
 }
 
-// export function isLive(time, now) {
-//   // return moment(time).isSame(now, 'day');
-// }
+export function isLive(startTime, endTime, now) {
+  let startTimeMoment = moment(startTime).subtract(1, "hour");
+  let endTimeMoment = moment(endTime).add(15, "minutes");;
+  let nowMoment = moment(now);
+  
+  return nowMoment.isAfter(startTimeMoment) && 
+    nowMoment.isBefore(endTimeMoment);
+}
 
 export function compare(date1, date2) {
   if (moment(date1).isSame(date2)) {

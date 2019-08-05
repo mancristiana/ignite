@@ -9,24 +9,33 @@ import { formatDay, getNow } from "./shared/Time.service";
 
 const App = () => {
   const [data, setData] = useState([]);
+  const [now, setNow] = useState("");
 
   useEffect(() => {
     const parsedData = Papa.parse(csvData, {
       header: true
     });
     setData(parsedData.data);
+    setNow(getNow());
+  }, []);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setNow(getNow());
+    }, 36000);
 
+    return () => clearInterval(interval);
   });
+
   return (
     <div className={styles.app}>
       <div className={styles.liveTalk}>
         <Header>Templafy Ignite</Header>
-        <Talks data={data} />
+        <Talks data={data} now={now}/>
       </div>
       <div className={styles.agenda}>
-        <Header size={30}>{formatDay(getNow())}</Header>
-        <Agenda data={data} today={getNow()} />
+        <Header size={30}>{formatDay(now)}</Header>
+        <Agenda data={data} today={now} />
       </div>
 
     </div>

@@ -1,5 +1,6 @@
 .app {
-  background-color: #2e2e2e;
+  background: url(./bg.png) center center no-repeat;
+  background-size: cover;
   color: #fff;
   min-height: 100vh;
   display: flex;
