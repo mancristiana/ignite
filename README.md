@@ -1,4 +1,4 @@
-# Countdown
+# Ignite
 See it here [https://mancristiana.github.io/ignite/](https://mancristiana.github.io/ignite/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
