@@ -1,0 +1,26 @@
+.agendaItem {
+  margin-bottom: 1em;
+}
+
+.agendaDetails {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 16px;
+  margin: 0;
+}
+
+.speaker, .room {
+  margin-right: 1em;
+}
+
+.speaker {
+  font-weight: 600;
+  color: #67b6ff;
+  text-transform: capitalize;
+}

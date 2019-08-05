@@ -1,7 +1,18 @@
 .app {
-  background: #2e2e2e;
+  background-color: #2e2e2e;
   color: #fff;
   min-height: 100vh;
   display: flex;
+  flex-direction: row;
+}
+
+.liveTalk {
+  width: 80%;
+  display: flex;
   flex-direction: column;
+}
+
+.agenda {
+  width: 20%;
+  background-color: #181818;
 }

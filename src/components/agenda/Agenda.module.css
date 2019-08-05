@@ -1,0 +1,12 @@
+.activeTalks {
+}
+
+.talks {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.talk {
+  flex: 1;
+}

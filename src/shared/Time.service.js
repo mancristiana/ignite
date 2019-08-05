@@ -1,5 +1,17 @@
 import moment from 'moment';
 
+export function getNow() {
+  return moment("2019-08-07 9:30");
+}
+
+export function isTimeOnGivenDay(time, day) {
+  return moment(time).isSame(moment(day), 'day');
+}
+
+// export function isLive(time, now) {
+//   // return moment(time).isSame(now, 'day');
+// }
+
 export function compare(date1, date2) {
   if (moment(date1).isSame(date2)) {
     return 0;
@@ -19,4 +31,8 @@ export function formatDuration(dateStart, dateEnd) {
   } else {
     return timeStart;
   }
+}
+
+export function formatDay(date) {
+  return moment(date).format("ddd, Do MMMM");
 }
