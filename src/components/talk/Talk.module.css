@@ -1,0 +1,19 @@
+.talk {
+  background-color: #000;
+  margin: 2em;
+  padding: 2em;
+  /* font-weight: 900; */
+  text-align: center;
+}
+
+.talk h1 {
+  font-size: 40px;
+}
+
+.speaker {
+  color: #0e0e0e;
+}
+
+.time {
+
+}

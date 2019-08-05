@@ -1,0 +1,8 @@
+.talks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.talk {
+  width: 33.33%;
+}
