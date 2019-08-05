@@ -1,14 +1,14 @@
 {
-  "main.css": "/ignite/static/css/main.66001462.chunk.css",
-  "main.js": "/ignite/static/js/main.307cb19b.chunk.js",
-  "main.js.map": "/ignite/static/js/main.307cb19b.chunk.js.map",
+  "main.css": "/ignite/static/css/main.82f525b2.chunk.css",
+  "main.js": "/ignite/static/js/main.be7bf3a3.chunk.js",
+  "main.js.map": "/ignite/static/js/main.be7bf3a3.chunk.js.map",
   "runtime~main.js": "/ignite/static/js/runtime~main.8176aada.js",
   "runtime~main.js.map": "/ignite/static/js/runtime~main.8176aada.js.map",
   "static/js/2.b901e4fa.chunk.js": "/ignite/static/js/2.b901e4fa.chunk.js",
   "static/js/2.b901e4fa.chunk.js.map": "/ignite/static/js/2.b901e4fa.chunk.js.map",
   "index.html": "/ignite/index.html",
-  "precache-manifest.2be3e2fcdc1aa8a1af3cca492daf5d97.js": "/ignite/precache-manifest.2be3e2fcdc1aa8a1af3cca492daf5d97.js",
+  "precache-manifest.e0330f3cff181275d39573966b38cda3.js": "/ignite/precache-manifest.e0330f3cff181275d39573966b38cda3.js",
   "service-worker.js": "/ignite/service-worker.js",
-  "static/css/main.66001462.chunk.css.map": "/ignite/static/css/main.66001462.chunk.css.map",
+  "static/css/main.82f525b2.chunk.css.map": "/ignite/static/css/main.82f525b2.chunk.css.map",
   "static/media/App.module.css": "/ignite/static/media/bg.8ad1e419.png"
 }

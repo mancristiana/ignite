@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "307cb19b7528e4c08773",
-    "url": "/ignite/static/css/main.66001462.chunk.css"
+    "revision": "be7bf3a3ec0b3cf68008",
+    "url": "/ignite/static/css/main.82f525b2.chunk.css"
   },
   {
-    "revision": "307cb19b7528e4c08773",
-    "url": "/ignite/static/js/main.307cb19b.chunk.js"
+    "revision": "be7bf3a3ec0b3cf68008",
+    "url": "/ignite/static/js/main.be7bf3a3.chunk.js"
   },
   {
     "revision": "8176aada5eb66e435d5f",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ignite/static/media/bg.8ad1e419.png"
   },
   {
-    "revision": "15e4b431f96c17234a305303bdba5faf",
+    "revision": "1d6cef346a363667b748340c9f61ba23",
     "url": "/ignite/index.html"
   }
 ];
